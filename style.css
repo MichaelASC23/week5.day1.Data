@@ -1,5 +1,5 @@
 body {
-    background-color: plum;
+    background-color: snow;
     display: flex;
     justify-content: center;
 
@@ -24,6 +24,11 @@ body {
     
 }
 
+#big_container{
+    display: flex;
+    justify-content: center;
+}
+
 #container div {
     font-size: larger;
     font-weight: bold;
@@ -32,5 +37,5 @@ body {
 #face {
     width: 250px;
     margin: 0 auto;
-    
+    border: solid black;
 }
