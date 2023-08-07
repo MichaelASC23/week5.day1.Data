@@ -7,8 +7,8 @@ body {
 
 #title{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    text-decoration: underline;
 }
 
 #container {
@@ -26,6 +26,7 @@ body {
 
 #big_container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -38,4 +39,9 @@ body {
     width: 250px;
     margin: 0 auto;
     border: solid black;
+}
+
+#second_container {
+    display: flex;
+    flex-direction: row;
 }
