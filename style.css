@@ -1,0 +1,36 @@
+body {
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container {
+    background-color: azure;
+    border: solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+#container div {
+    font-size: larger;
+    font-weight: bold;
+
+}
+#face {
+    width: 250px;
+    margin: 0 auto;
+    
+}
